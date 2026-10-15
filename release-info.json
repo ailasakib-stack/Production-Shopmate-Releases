@@ -1,12 +1,12 @@
 {
   "version": "4.2.6",
-  "releaseDate": "2026-10-15T18:19:54.619Z",
+  "releaseDate": "2026-10-15T18:31:31.908Z",
   "files": {
     "update.zip": {
-      "sizeBytes": 13053796,
+      "sizeBytes": 13053797,
       "sizeMb": "12.45 MB",
-      "sha256": "342cc06c735a16336617905ee5df192e98f0a94a77b095012969f7056f13265f"
+      "sha256": "c5c09baca40334f267bee7e90150308fb022b6f96d7079da1f7a2b992938a795"
     }
   },
-  "changelogNotes": "## ShopMate v4.2.6\n\n- Pure WebAssembly SQLite (sql.js) engine with zero native compilation dependencies.\n- Cross-platform native startup launchers for Windows (.bat), macOS (.command), and Linux (.sh).\n- Lifetime Profit & Loss and Trading Logs reports.\n- Unified General Income & Expense voucher management with auto-journal sync.\n- High-performance minified and mangled production build."
+  "changelogNotes": "## Production ShopMate v4.2.6\n\n- Pure WebAssembly SQLite (sql.js) engine with zero native compilation dependencies.\n- Dedicated Production & Manufacturing Module with Custom Batch (Mode A) and BOM Backflush (Mode B).\n- Dedicated Industrial Catalog, Material Enrollment (Single, Bulk Grid, CSV), and Factory Parties (Suppliers & Contractors).\n- Factory Stock & WIP Valuation (Raw Material 1040, Packaging 1041, WIP 1042, Finished Goods 1043).\n- High-performance minified and mangled production build."
 }
