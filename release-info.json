@@ -1,0 +1,12 @@
+{
+  "version": "4.2.6",
+  "releaseDate": "2026-10-15T18:19:54.619Z",
+  "files": {
+    "update.zip": {
+      "sizeBytes": 13053796,
+      "sizeMb": "12.45 MB",
+      "sha256": "342cc06c735a16336617905ee5df192e98f0a94a77b095012969f7056f13265f"
+    }
+  },
+  "changelogNotes": "## ShopMate v4.2.6\n\n- Pure WebAssembly SQLite (sql.js) engine with zero native compilation dependencies.\n- Cross-platform native startup launchers for Windows (.bat), macOS (.command), and Linux (.sh).\n- Lifetime Profit & Loss and Trading Logs reports.\n- Unified General Income & Expense voucher management with auto-journal sync.\n- High-performance minified and mangled production build."
+}
