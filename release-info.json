@@ -1,12 +1,12 @@
 {
-  "version": "4.2.6",
-  "releaseDate": "2026-10-15T18:31:31.908Z",
+  "version": "4.3.0",
+  "releaseDate": "2026-10-21T07:44:17.680Z",
   "files": {
     "update.zip": {
-      "sizeBytes": 13053797,
-      "sizeMb": "12.45 MB",
-      "sha256": "c5c09baca40334f267bee7e90150308fb022b6f96d7079da1f7a2b992938a795"
+      "sizeBytes": 14045294,
+      "sizeMb": "13.39 MB",
+      "sha256": "158f836115a9289949f71c544da2c9731b356f0f5c87722a2e2b02db28387d90"
     }
   },
-  "changelogNotes": "## Production ShopMate v4.2.6\n\n- Pure WebAssembly SQLite (sql.js) engine with zero native compilation dependencies.\n- Dedicated Production & Manufacturing Module with Custom Batch (Mode A) and BOM Backflush (Mode B).\n- Dedicated Industrial Catalog, Material Enrollment (Single, Bulk Grid, CSV), and Factory Parties (Suppliers & Contractors).\n- Factory Stock & WIP Valuation (Raw Material 1040, Packaging 1041, WIP 1042, Finished Goods 1043).\n- High-performance minified and mangled production build."
+  "changelogNotes": "## ShopMate Production v4.3.0\n\n- Introduced 'Cash Supplier' system party for purchases, completely replacing 'Cash Customer' in all purchase operations and terminal party selectors.\n- Strict Credit Security: Disallowed credit transactions for 'Cash Supplier' during purchase, ensuring credit purchases are recorded against verified creditor accounts.\n- Mode-Aware Party Routing: Terminal automatically toggles Cash Customer for sales and Cash Supplier for purchases, filtering irrelevant counterparties.\n- Protected System Parties: Both 'Cash Customer' and 'Cash Supplier' are permanently non-deletable and non-renamable across backend and frontend.\n- Updated Print & Report Documents: Invoices, thermal receipts, Daily Book, and Transaction Ledgers properly display 'Supplier: Cash Supplier' for purchases.\n- Hardened User Permission Matrix: view-level guards, strict item edit/delete segregation, price and discount override restrictions, and purchase cost masking.\n- 1-Click Excel (.xlsx) & PDF (.pdf) export option across all analytical reports."
 }
