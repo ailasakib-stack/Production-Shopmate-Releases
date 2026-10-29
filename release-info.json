@@ -1,12 +1,12 @@
 {
-  "version": "4.3.1a",
-  "releaseDate": "2026-10-29T07:45:06.142Z",
+  "version": "4.3.2",
+  "releaseDate": "2026-10-29T07:52:46.868Z",
   "files": {
     "update.zip": {
-      "sizeBytes": 10201751,
+      "sizeBytes": 10201837,
       "sizeMb": "9.73 MB",
-      "sha256": "76be3c3b0192fa2cec7eb1ff79dcd25399f844e3da7f0cc99a3ae31e7801ef83"
+      "sha256": "8a389557effc85610fadb734eca3348a3dbf00539aba0f95acbe20a2c76c7a0a"
     }
   },
-  "changelogNotes": "## ShopMate Industry ERP v4.3.1a\n\n- Industrial Production & Manufacturing Manual: Integrated comprehensive visual guide and procurement procedures.\n- Serial Number Lifecycle & Configuration: Advanced serial number settings, batch-level barcodes, and instant POS unbilled restock flow.\n- Digital Signature Integration: Secure signature pad capture with automatic signatory stamping across invoices and vouchers.\n- Smart Product Name Builder: Dynamic name generator for industrial components and trading items.\n- Concurrency & Idempotency Hardening: Request deduplication keys across production batches, inventory movements, and transaction entries.\n- Cash Flow Breakdown: Granular classification between Cash, Card, and MFS entries with autonomous ledger self-healing."
+  "changelogNotes": "## ShopMate Industry ERP v4.3.2\n\n- Dual Top & Bottom Table Scrollbars: Full-width native horizontal scrollbars at both the top and bottom of all wide tables across the entire ERP.\n- Smooth Drag Synchronization: Native drag ownership lock preventing cancellation or stutter during horizontal table navigation.\n- Factory vs Commercial Procurement Separation: General trading items strictly segregated from factory raw/packing materials with dedicated 'Raw Material Supplier' party flags.\n- Commercial Store Transfer Modal Alignment: Harmonized combo box widths, numeric quantity inputs, asset values, and voucher posting controls.\n- Smart Product Name Builder: Dynamic name generator integrated into production catalog material enrollment.\n- Industrial Production & Manufacturing Architecture: Real-time double-entry ledger integration and autonomous database self-healing."
 }
