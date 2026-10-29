@@ -1,11 +1,11 @@
 {
   "version": "4.3.1a",
-  "releaseDate": "2026-10-29T05:34:31.044Z",
+  "releaseDate": "2026-10-29T07:38:36.699Z",
   "files": {
     "update.zip": {
-      "sizeBytes": 10199010,
+      "sizeBytes": 10202651,
       "sizeMb": "9.73 MB",
-      "sha256": "e004995b239aa0ea8723e4cbe021a326960efe5c4c98c68d80e16924a5dfc396"
+      "sha256": "8ae343a5ead5dad2a1faa8a9694b0f254a2cda2540bb8f70ebf98f9024b71a06"
     }
   },
   "changelogNotes": "## ShopMate Industry ERP v4.3.1a\n\n- Industrial Production & Manufacturing Manual: Integrated comprehensive visual guide and procurement procedures.\n- Serial Number Lifecycle & Configuration: Advanced serial number settings, batch-level barcodes, and instant POS unbilled restock flow.\n- Digital Signature Integration: Secure signature pad capture with automatic signatory stamping across invoices and vouchers.\n- Smart Product Name Builder: Dynamic name generator for industrial components and trading items.\n- Concurrency & Idempotency Hardening: Request deduplication keys across production batches, inventory movements, and transaction entries.\n- Cash Flow Breakdown: Granular classification between Cash, Card, and MFS entries with autonomous ledger self-healing."
